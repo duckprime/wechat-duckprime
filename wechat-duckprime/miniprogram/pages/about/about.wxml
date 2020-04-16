@@ -1,0 +1,30 @@
+<view class="top_contain">
+      <view class="des_contain">
+            <view class="name">薛翔</view>
+            <view class="sign">天行健，君子以自强不息；地势坤，君子以厚德载物</view>
+      </view>
+      <view class="avator_box">
+            <image class="avator" src="/images/tou.png"></image>
+      </view>
+</view>
+<view class="contain">
+      <!-- <view class="title">程序简介</view> -->
+      <!-- <view class="description">
+            <text space="emsp" decode="{{ true }}">{{des}}</text>
+      </view> -->
+      <view class="title">联系方式</view>
+      <view class="description">
+            <view class="tip" bindtap="copy" data-copy="https://github.com/fanl626" data-name="链接">
+                  <view>Github</view>:
+                  <text>https://github.com/fanl626</text>
+            </view>
+            <view class="tip" bindtap="copy" data-copy="qwe252313" data-name="微信">
+                  <view>Wechat</view>:
+                  <text>qwe252313</text>
+            </view>
+            <view class="tip" bindtap="copy" data-copy="511508105" data-name="QQ">
+                  <view>QQ</view>:
+                  <text>511508105</text>
+            </view>
+      </view>
+</view>
